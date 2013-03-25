@@ -1,0 +1,43 @@
+
+body {
+  padding:0px;
+  font:14px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+background-repeat: repeat-x;
+}
+
+.wrapper {
+  width:100%;
+  margin:0 auto;
+  padding: 20 20 20 20;
+  height: 100%;
+  background-color:#fff;
+}
+
+.headerblock {
+	width: 150px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	margin-top: 0px;
+	float: left;
+	line-height: 1.25em;
+	
+}
+
+header {
+	position:relative;
+	width: 100%;
+	Overflow: hidden;
+	background-color: #F7F7F7;
+}
+
+section {
+float:left;
+
+}
+
+h1 {
+padding-left: 5px;
+padding-top: 2px;
+}
+

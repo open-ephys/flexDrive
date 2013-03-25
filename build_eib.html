@@ -1,0 +1,31 @@
+<html><head>
+      <?php include 'htmlhead.php'; ?>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+       <?php include 'header.php'; ?>
+      </header>
+      <section>
+ <h3>Assemble the EIB</h3>
+         See <a href="custom_parts.php">section on custom parts</a> for details on how to design and order the printed circuit boards (PCBs) for the EIB. If a commercial EIB provided by the maker of your electrophysiology system is used, just clean the EIB with ethanol.<br><br>
+
+
+<div class="methodblock">Clean the PCB with ethanol.</div>
+  <div class="methodblock">Solder the headstage connector to the pads on the EIB.</div>
+  
+  <img src="imgs/eib_soldered.png" width="300" height="205">
+<div class="methodblock"> Clean the flux off the PCB.</div>
+    <div class="methodblock">Test the connections and check for shorts between traces.</div>
+        <div class="methodblock"> If the PCB design has separate circuits for reference and ground channels, these can optionally be joined either by soldering a short piece of stainless steel wire between the corresponding vias, or by placing a solder bead to short the corresponding SMD pads.</div>
+        
+        <img src="imgs/eib_epoxy.png" width="300" height="205">
+<div class="methodblock"> Reinforce the joint of the connector to the EIB with epoxy. Without this step, the solder connection can break after a few connect/disconnect cycles. Be careful to avoid getting any epoxy into the vias, as small amounts can be very hard to spot and can cause connection problems when loading electrodes later.</div>
+
+
+ 
+    <em>The EIB is now ready to be glued onto the drive body.
+</p>
+    </em></section>
+  </div>
+</body></html>

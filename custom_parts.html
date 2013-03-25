@@ -1,0 +1,48 @@
+<html><head>
+      <?php include 'htmlhead.php'; ?>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+       <?php include 'header.php'; ?>
+      </header>
+   
+      <section>
+          <strong>Custom drive screws </strong><br>
+        The flexDrive is using long,  thin custom screws for the drive mechanism. Due to the spring mechanism, the screw does not require a special retaining ring to stabilize the drive mechanism.
+        We are using 0.6mmx7mm screws made from stainless steel or titanium.
+        The last mm under the screw head is left smooth in order to ensure a smooth low-friction fit between screw and spring.
+ 
+  
+      <br>
+  <img src="imgs/screw_filister.png" width="400" height="144"> <br>
+  A commonly used design for drive screws is to use half-circle heads that leave less ambiguity about the current screw angle when adjusting drives, and are a bit more stable:
+  
+  
+  <br>
+  <img src="imgs/screw_halfcircle.png" width="200" height="126"><br>
+  We are currently getting our screws made at<a href="http://www.antrinonline.com/products.htm" target="_new"> Antrin Miniature Specialties, Inc</a>. 
+    The drawing on this page has all the information needed to oder this screw type. At reasonably large quantities &gt;=1000 pcs, the custom screws are cheaper than any of the inferior off the shelf alternatives that we could find, even for TI screws. Screws can typically be re-used a few times.</p>
+        <p>&nbsp;</p>
+        <p><strong>Drive body</strong><br>
+          The drive body of the flexDrive is printed from ABS like material from a  CAD design file (solidworks). <br>
+          <img src="imgs/drivebody_frontal.png" width="258" height="216"><br>
+          A relatively high quality 3d print is required because otherwise the snap-fit features for the guide tubes can't be resolved and the holes for the drive screws would fill in completely. The only 3d printing method that we have tested is Stereolithography. It seems unlikely that lower-cost current generation Fused Deposition Modeling machines would give acceptable results for the flexDrive. We are currently using <a href="http://www.approto.com/" target="_new">APProto</a>'s <a href="http://www.approto.com/PDFs/Data-Sheets/SLA_55_rev2.aspx" target="_new">Acura 55</a> process with very good results. <em>Even with high print quality, drive bodies need to be prepared by drilling out and 'tapping' screw holes before using the bodies.</em></p>
+        <p><strong>Drive spring<br>
+        </strong>The spring that forms the main drive mechansim of the flexDrive is cut from a thin piece of spring steel (Blue-Finished and Polished 1095 Spring Steel .002" Thick, we buy from <a href="http://www.mcmaster.com/#catalog/119/3660/=lcb4vp" target="_new">McMaster</a>) using a <a href="http://en.wikipedia.org/wiki/Electrical_discharge_machining" target="_new">wire EDM</a> process.<br>
+        <img src="imgs/spring_top.png" width="350" height="216">        </p>
+        <p> Any shop with access to a wire EDM that is set up for a relatively standard 13mil kerf width should be able to use the provided source files. The CAD files in the repository are already set up to account for the kerf, resulting in a screw opening of ~0.606mm ID - if your machine shop uses a different process, even if the kerf width is smaller, the files need to be modified accordingly. 
+        Usually, the Solidworks parts have to be exported as DXF (make sure the units are correct, we have to set everything to inches) before they can be sent off to be machined. </p>
+      
+      <p><strong>EIBs</strong><br>
+For microwire electrodes, the electrical connection between the electrode and the headstage is made through a printed circuit board that is attached to the top of the drive implant and provides a number of vias that accomodate the electrode wires.<br>
+      <br>
+      The flexDrive can be used with any EIB that does not significantly exceed a circular footprint of 16.5mm diameter, such as the 16 channel EIBs made by neuralynx.<br>
+      <img src="imgs/eib_color.png" width="163" height="173"><br>
+      We are using custom made EIBs that we design in the free version of <a href="http://www.cadsoftusa.com/" target="_new">Eagle</a>. The standard EIB with 32 channels for use with 16 stereotrodes can be fabricated with moderate tolerances, we're mostly using <a href="http://www.sunstone.com/" target="_new">Sunstone</a>'s <a href="https://www.sunstone.com/quoteValueProto.aspx" target="_new">valueProto</a> service.<br>
+      For the EIB variant with 64 channels for use with 16 tetrodes or 16 pairs of stereotrodes, a 5/5 mil spacing is required. We have been getting good results from <a href="http://www.4pcb.com/" target="_new">Advanced Circuits</a>. For all standard EIB designs in the repository we include zip files with gerber files ready for fabrication.
+      </section>
+</div>
+
+     
+</body></html>

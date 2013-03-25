@@ -1,65 +1,22 @@
 ---
 layout: default
-title: Welcome
+title: flexDrive
 ---
-
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Flexdrive by open-ephys</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<html><head>
+      {% include htmlhead.html %}
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Flexdrive</h1>
-        <p>Compact hyperdrive for up to 16 independently movable electrodes</p>
-
-        <p class="view"><a href="https://github.com/open-ephys/flexDrive">View the Project on GitHub <small>open-ephys/flexDrive</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/open-ephys/flexDrive/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/open-ephys/flexDrive/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/open-ephys/flexDrive">View On <strong>GitHub</strong></a></li>
-        </ul>
+       {% include header.html %}
       </header>
-      <section>
-        <h3>the Flexdrive</h3>
-
-<p>temporary place holder</p>
-
-
-{% include header.html %}
-
-<p>Electrophysiological recordings from ensembles of neurons in behaving mice are a central tool in the study of neural circuits. Despite the widespread use of chronic electrophysiology, the precise positioning of recording electrodes required for high-quality recordings remains a challenge, especially in behaving mice. The complexity of available drive mechanisms, combined with restrictions on implant weight tolerated by mice, limits current methods to recordings from no more than 4-8 electrodes in a single target area. We developed a highly miniaturized yet simple drive design that can be used to independently position 16 electrodes with up to 64 channels in a package that weighs approximately 2g. This advance over current designs is achieved by a novel spring-based drive mechanism that reduces implant weight and complexity. The device is easy to build and accommodates arbitrary spatial arrangements of electrodes. Multiple optical fibers can be integrated into the recording array and independently manipulated in depth. Thus, our novel design enables precise optogenetic control and highly parallel chronic recordings of identified single neurons throughout neural circuits in mice.</p>
-
-
+      <section><img src="imgs/opener_big.png" width="483" height="507">
+        <p>The <em>flexDrive</em> is an implant  for chronic extracellular electrophysiology.</p>
+        <p>The design is  miniaturized yet simple and can be used to independently position 16 electrodes with up to 64 channels in a package that
+          weighs approximately 2g. The device is easy to
+          build and accommodates arbitrary spatial arrangements of electrodes. Multiple optical fibers
+          can be integrated into the recording array and independently manipulated in depth. The design enables precise optogenetic control and highly parallel chronic recordings
+          of identified single neurons throughout neural circuits in animals as small as mice.  </p>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/open-ephys">open-ephys</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-38325991-2");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
-</html>
+  </div>
+</body></html>
