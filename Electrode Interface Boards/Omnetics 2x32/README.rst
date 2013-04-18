@@ -22,6 +22,7 @@ Pin mapping:
 The pin mapping for the GROUND and REFERENCE channels on this EIB are compatible with the mapping on the Intan evaluation system headstages (http://www.intantech.com/files/Intan_RHD2000_eval_system.pdf) and the open-ephys headstages (open-ephys.org)
 
 (viewed down onto the eib, looking onto the bottom of the headstage connector this would be flipped)
+
 | ref  | ch | ch | ... | ch | gnd |
 | gnd | ch | ch | ... | ch | ref |
 
