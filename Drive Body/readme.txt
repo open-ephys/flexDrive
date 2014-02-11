@@ -2,6 +2,14 @@ The flexDrive is an implant for chronic extracellular electrophysiology.
 The design of the flexDrive is released under the The TAPR Open Hardware License
 Get the latest revision of the design source files at http://github.com/open-ephys/flexDrive
 
+folder for_small_eibs holds the standard design that works with the 32ch eib and 64ch eib (small gold pins)
+
+folder for_larger_64ch_eib contains a variant for use with the bigger 64ch eib (large gold pins)
+
+
+
+
+
 Editing the sldprt files requires Dassault Systems Solidworks (http://www.solidworks.com/)
 
 We also provide a STL file for use with 3d-printing software or services.
