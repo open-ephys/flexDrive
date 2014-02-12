@@ -5,6 +5,8 @@ The 64ch_eib_omnetics_3fibers Electrode Interface Board  (EIB) is designed to fo
 
 See the documentation on http://github.com/open-ephys/flexDrive for building and use instructions.
 
+**WARNING:** This design will not work if fabricated as 'standard quality' PCB, see Fabrication instructions and get in touch with your PCB maker before placing orders!
+
 Connectors on EIB:
 ~~~~~~~~~~~~~~~
 
@@ -34,7 +36,7 @@ The hole size on this EIB (0.3mm) is suited for use with SMALL neuralynx gold pi
 
 The three mounting holes for optical fiber ferrules are sized for use with 1.25mm OD ferrules.
 
-See the documentation on http://github.com/open-ephys/flexDrive for building and use instructions.
+See the documentation on https://open-ephys.atlassian.net/wiki/display/OEW/flexDrive for building and use instructions.
 
 
 Fabrication instructions:
