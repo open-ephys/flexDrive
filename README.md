@@ -3,7 +3,7 @@ flexDrive
 
 The flexDrive is a compact hyperdrive for up to 16 independently movable electrodes. It uses a novel spring mechanism to adjust electrode depth.
 
-This repository only contains design files. See http://open-ephys.github.com/flexDrive for documentation and assembly instructions.
+This repository only contains design files. See https://open-ephys.atlassian.net/wiki/display/OEW/flexDrive for documentation and assembly instructions.
 
 File types
 ------------
