@@ -1,6 +1,9 @@
 flexDrive
 ==========
 
+
+__This design is deprecated, we recommend switching to the newer Open Ephys shuttle drive__ (preprint: https://www.biorxiv.org/content/10.1101/746651v1), (git repository: https://github.com/open-ephys/shuttle-drive). This new design is superior to the flexDrive in all aspects (robustness, travel distance, build speed), and we strongly recommend switching.
+
 The flexDrive is a compact hyperdrive for up to 16 independently movable electrodes. It uses a novel spring mechanism to adjust electrode depth.
 
 This repository only contains design files. See https://open-ephys.atlassian.net/wiki/display/OEW/flexDrive for documentation and assembly instructions.
